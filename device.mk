@@ -30,6 +30,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OnePlusCameraHelper
 
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display_id_4630946797824131201.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946797824131201.xml
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
