@@ -2543,4 +2543,10 @@
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
     </carrier_config>
 
+    <!-- PA: Allow VoLTE and VoWiFi/WFC on All Carriers in PAK -->
+    <carrier_config mcc="410">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
 </carrier_config_list>
